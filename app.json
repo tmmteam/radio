@@ -1,0 +1,55 @@
+{
+  "name": "Ayush",
+  "description": "An advanced & powerfull vc streaaming bot for telegram.",
+  "keywords": [
+    "radioot",
+    "vcbot",
+    "radioplayer"
+  ],
+  "repository": "https://github.com/tmmteam/radio",
+  "logo": "https://envs.sh/KfW.jpg",
+  "stack": "container",
+  "env": {
+    "API_ID": {
+      "description": "Get it from my telegram chat group.",
+      "value": "22243185",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "The number of processes to run.",
+      "value": "39d926a67155f59b722db787a23893ac",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get it from botfather.",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "Generate pyrogram v2 string session and paste here.",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Paste user_id of bot owner.",
+      "required": true
+    },
+    "LOG_GROUP_ID": {
+      "description": "Provide an chat_id for logs.",
+      "required": true
+    },
+    "MONGO_DB_URL": {
+      "description": "Paste here your mongodb url.",
+      "required": true
+    },
+    "START_IMAGE_URL": {
+      "description": "An image url for your bot.",
+      "value": "https://iili.io/2iUg7K7.md.jpg",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  }
+}
